@@ -49,9 +49,9 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'host'      => $host,
-        'database'  => $database,
-        'username'  => $username,
-        'password'  => $password,
+            'database'  => $database,
+            'username'  => $username,
+            'password'  => $password,
             'port' => env('DB_PORT', '3306'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
