@@ -1,0 +1,24 @@
+public function create()
+         {
+             $user= Input::all();
+               $user = new User;
+               $user->username = Input::get('username');
+               $user->email = Input::get('email');
+               $user->password = Input::get('password');
+               $user->save();
+
+            return Redirect::back();
+        } 
+
+
+
+https://stackoverflow.com/questions/47296805/laravel-show-more-button
+
+https://stackoverflow.com/questions/20415444/download-files-in-laravel-using-responsedownload
+
+
+protected $table = 'payments_api';
+
+
+
+https://sandbox.braintreegateway.com/merchants/c9zs8n2qw28fbxfx/merchant_accounts/info {braintree}

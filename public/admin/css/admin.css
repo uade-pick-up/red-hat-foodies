@@ -1,0 +1,149 @@
+.iconpicker-popover.popover .popover-title input[type=search].iconpicker-search {
+    width: -webkit-fill-available;
+}
+.tgl-skewed + .tgl-btn {
+    width: 73px;
+}
+.form-control {
+	margin-bottom: 5px;
+}
+.select2-container--default 
+.select2-selection--single, 
+.select2-selection .select2-selection--single {
+    margin-bottom: 5px;
+}
+.tgl-skewed + .tgl-btn {
+	margin-bottom: 5px;
+}
+button, input, select, textarea {
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-bottom: 15px;
+}
+.users-list>li img {
+    height: 65px;
+}
+
+/*order page*/
+.view-order {
+	padding: 30px 20px 0 20px;
+	background-color: #ECF0F5;
+	margin-bottom: 40px;
+}
+.order-invoice {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.user-ordered {
+	padding: 30px 20px;
+}
+.view-instructor {
+	padding: 30px 20px;
+	background-color: #ECF0F5;
+	margin-bottom: 30px;
+}
+.instructor-detail ul li{
+	margin-bottom: 10px;
+}
+.mailbox-read-message {
+	padding: 30px 0;
+}
+.text-right {
+	text-align: right;
+}
+.navbar:before {
+	display: unset;
+	content: " ";
+}
+span.ui-icon.ui-icon-circle-triangle-w {
+	background: #000;
+}
+span.ui-icon.ui-icon-circle-triangle-e {
+	background-color: #000;
+}
+sup.redstar {
+	color: #FF0000;
+}
+.redstar {
+	color: #FF0000;
+}
+
+.alert-success {
+	text-align:center; z-index: 1; margin-top: 5px;
+}
+.alert-danger {
+	text-align:center; z-index: 1; margin-top: 5px;
+}
+.display-inline {
+	display: inline;
+}
+.display-none {
+	display: none;
+}
+.display-inline-flex {
+	display: inline-flex;
+}
+.sidebar .user-panel img {
+	height: 45px;
+}
+.table td img {
+	width: 60px;
+	height: 60px;
+}
+.box-body img {
+	width: 90px;
+	height: 90px;
+}
+.instructor-detail ul li img {
+	width: 90px;
+	height: 90px;
+}
+.logo-invoice img {
+	width: 120px;
+	height: 40px;
+}
+.logo-settings img {
+	width: 120px;
+	height: 40px;
+}
+.favicon-settings {
+	width: 50px;
+	height: 30px;
+}
+.update-password label {
+	font-size: 18px;
+	vertical-align: top;
+}
+.update-password input {
+	width: 20px;
+	height: 20px;
+}
+.social-profile label {
+	font-size: 18px;
+	vertical-align: top;
+}
+.social-profile input {
+	width: 20px;
+	height: 20px;
+}
+.box-body video {
+	width: 200px;
+	height: 150px;
+}
+
+.edit-user-img img {
+	width: 100px;
+	height: 100px;
+}
+
+.language .btn-primary {
+	padding: 11px;
+	font-size: 20px;
+	border: none;
+}
+.language .btn-primary:hover {
+	border: none;
+	border-radius: none;
+}
