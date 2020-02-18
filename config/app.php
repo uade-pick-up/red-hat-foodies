@@ -171,6 +171,7 @@ return [
         Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
         Orangehill\Iseed\IseedServiceProvider::class,
         Anand\LaravelPaytmWallet\PaytmWalletServiceProvider::class,
+	Way\Generators\GeneratorsServiceProvider::class
 
 
         /*
