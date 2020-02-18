@@ -1,9 +1,5 @@
 <?php
-$url = "mysql://bd5e1c9d36c37c:56bb95da@us-cdbr-iron-east-04.cleardb.net/heroku_e41e03100aa73f6?reconnect=true";
-$host = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$database = substr($url["path"], 1);
+
 return [
 
     /*
@@ -46,18 +42,18 @@ return [
 
         'mysql' => [
 		'driver' => 'mysql',
-	    	'host' => $host,
-    		'database' => $database,
-    		'username' => $username,
-    		'password' => $password,
-    		'charset' => 'utf8',
-    		'collation' => 'utf8_unicode_ci',
-    		'prefix' => '',
-            	'port' => env('DB_PORT', '3306'),
-            	'unix_socket' => env('DB_SOCKET', ''),
-            	'prefix_indexes' => true,
-            	'strict' => false,
-            	'engine' => null,
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'udemy'),
+            'username' => env('DB_USERNAME', 'root'),
+            'password' => env('DB_PASSWORD', ''),
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'strict' => false,
+            'engine' => null,
         ],
 
         'pgsql' => [
