@@ -167,7 +167,6 @@ return [
         Cartalyst\Stripe\Laravel\StripeServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
         Unicodeveloper\Paystack\PaystackServiceProvider::class,
-        Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
         Orangehill\Iseed\IseedServiceProvider::class,
         Anand\LaravelPaytmWallet\PaytmWalletServiceProvider::class,
 
